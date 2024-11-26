@@ -1,63 +1,47 @@
-/* Estilos generales */
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Magia del Viento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">El Viento</a></li>
+        <li><a href="#">Jet Streams</a></li>
+        <li><a href="#">Fenómenos Climáticos</a></li>
+        <li><a href="#">Más Información</a></li>
+      </ul>
+    </nav>
+  </header>
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 40px;
-}
+  <section id="hero">
+    <div class="content">
+      <h1>El Viento: La Fuerza Invisible</h1>
+      <p>Descubre cómo el viento mueve la atmósfera y afecta al clima de nuestro planeta.</p>
+      <a href="#section1" class="cta-button">Explorar más</a>
+    </div>
+  </section>
 
-h1, h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
+  <section id="section1" class="info-section">
+    <h2>¿Qué es el viento?</h2>
+    <p>El viento es el movimiento del aire... (aquí va el contenido sobre el viento)</p>
+  </section>
 
-/* Estilos de la sección hero */
-#hero {
-    background: url('ruta-a-tu-imagen-del-viento.jpg') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-}
+  <section id="section2" class="info-section">
+    <h2>Jet Streams</h2>
+    <p>Los jet streams son corrientes rápidas de aire que...</p>
+  </section>
 
-#hero h1 {
-    font-size: 4rem;
-}
+  <footer>
+    <p>&copy; 2024 Presentación sobre el Viento</p>
+  </footer>
 
-#hero p {
-    font-size: 1.5rem;
-}
+  <script src="script.js"></script>
+</body>
+</html>
 
-#hero .btn {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #00aaff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-/* Estilo para secciones */
-section {
-    padding: 60px 0;
-    background-color: #ffffff;
-    margin-bottom: 20px;
-}
-
-/* Estilo del footer */
-footer {
-    background-color: #222;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
